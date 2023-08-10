@@ -21,5 +21,5 @@ let g:new_buffer_created = 0
 
     
 "command! -nargs=0 QDPython call qdpython#Execute_code_python()
-autocmd FileType python nnoremap <F2> :call vim-qdpython#Execute_code_python()<CR>
+autocmd FileType python nnoremap <F2> :call Execute_code_python()<CR>
 

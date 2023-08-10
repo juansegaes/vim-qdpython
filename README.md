@@ -1,6 +1,6 @@
 # vim-qdpython
 
-Quick and dirty python executing tool. By default, press <F2> to compile the current python file. This is not intened for big projects.
+Quick and dirty python executing tool. By default, press F2 to compile the current python file. This is not intened for big projects.
 
 
 ## Installation

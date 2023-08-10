@@ -15,6 +15,10 @@ let g:loaded_qdpython = 1
 "command! -nargs=0 DisplayTime call example-plugin#DisplayTime()
 "command! -nargs=0 DefineWord call example-plugin#DefineWord()
 "command! -nargs=0 AspellCheck call example-plugin#AspellCheck()
+
+let g:python_buffer_id = -1
+let g:new_buffer_created = 0
+
     
 "command! -nargs=0 QDPython call qdpython#Execute_code_python()
 autocmd FileType python nnoremap <F2> :call vim-qdpython#Execute_code_python()<CR>

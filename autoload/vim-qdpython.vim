@@ -1,5 +1,3 @@
-let g:python_buffer_id = -1
-let g:new_buffer_created = 0
 "get the name of open buffers
 
 
